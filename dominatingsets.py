@@ -10,13 +10,6 @@ import operator
 
 
 class DominatingSets:
-	@classmethod
-	def get_dominating_sets(cls, G, weight=None):
-		"""get a dominating sets 
-		"""
-		dominating_sets = nxaa.min_weighted_dominating_set(G, weight=weight)
-
-		return dominating_sets
 
 	@classmethod
 	def min_connected_dominating_sets_non_distributed(cls, G):
